@@ -9,4 +9,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, milkyWay){
   return chocolateBars;
 }
 
+function addElementToEndOfArray(){
+  
+}
+
 function
