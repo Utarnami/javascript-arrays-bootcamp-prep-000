@@ -8,3 +8,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, milkyWay){
   return chocolateBars.unshift(milkyWay);
 }
 
+function accessElementInArray(chocolateBars, milkyWay){
+  return (chocolateBars[0])
+}
