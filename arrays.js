@@ -9,8 +9,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, milkyWay){
   return chocolateBars;
 }
 
-function addElementToEndOfArray(){
-  
+function addElementToEndOfArray(chocolateBars, milkyWay){
+  chocolateBars.push(milkyWay)
+  return chocolateBars
 }
 
-function
+function destructivelyAddElementToEndOfArray(chocolateBars,milkyWay){
+  return
+}
