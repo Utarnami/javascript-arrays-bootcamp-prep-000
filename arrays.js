@@ -9,6 +9,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, milkyWay){
   return chocolateBars;
 }
 
-function accessElementInArray(chocolateBars, milkyWay){
+function accessElementInArray(array, element){
   return (chocolateBars[0])
 }
