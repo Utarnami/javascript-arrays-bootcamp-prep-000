@@ -10,12 +10,12 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, milkyWay){
 }
 
 function addElementToEndOfArray(chocolateBars, milkyWay){
-  return 
+  return [...chocolateBars, milkyWay];
 }
 
-function destructivelyAddElementToEndOfA
-}rray(chocolateBars,milkyWay){
+function destructivelyAddElementToEndOfArray(chocolateBars,milkyWay){
   return [...chocolateBars, milkyWay];
+}
 
 function accessElementInArray (array, index){
   return array[undex];
