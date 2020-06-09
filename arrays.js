@@ -13,7 +13,7 @@ function addElementToEndOfArray(chocolateBars, milkyWay){
   return [...chocolateBars, milkyWay];
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBars,milkyWay){
+function destructivelyAddElementToEndOfArray(chocolateBars, milkyWay){
   chocolateBars.push(milkyWay);
   return chocolateBars;
 }
@@ -35,4 +35,7 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   return chocolateBars.pop();
 }
 
-function remove
+function removeElementFromEndOfArray(chocolateBars){
+  chocolateBars.slice(0, chocolateBars.length - 1);
+  return chocolateBars;
+}
