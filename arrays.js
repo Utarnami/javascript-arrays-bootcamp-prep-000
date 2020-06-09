@@ -19,4 +19,4 @@ function destructivelyAddElementToEndOfArray(chocolateBars,milkyWay){
 }
 
 function accessElementInArray(chocolateBars, milkyWay)
-return chocolateBars
+return chocolateBars[0];
